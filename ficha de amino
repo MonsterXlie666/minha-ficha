@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia de Natan Olivares</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lostar&family=Crete+Round:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Crete Round', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            font-family: 'Lostar', serif;
+            color: #ffffff;
+            text-align: center;
+        }
+        .separator {
+            height: 2px;
+            background-color: #a020f0;
+            box-shadow: 0 0 10px #a020f0;
+            margin: 20px 0;
+        }
+        .gallery {
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+        }
+        .gallery img {
+            width: 32%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .description, .history, .powers {
+            margin-top: 20px;
+        }
+        .links {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .btn-amino {
+            background-color: #a020f0;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            box-shadow: 0 0 10px #a020f0;
+        }
+        .btn-amino:hover {
+            background-color: #7a0fc0;
+            box-shadow: 0 0 15px #7a0fc0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #a020f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Natan Olivares</h1>
+        <div class="gallery">
+            <img src="https://i.ibb.co/YWqHpQs/image1.jpg" alt="Imagem 1 de Natan Olivares">
+            <img src="https://i.ibb.co/ZzMqqnK/image2.jpg" alt="Imagem 2 de Natan Olivares">
+            <img src="https://i.ibb.co/kgpTVym/image3.jpg" alt="Imagem 3 de Natan Olivares">
+        </div>
+        <div class="separator"></div>
+        <div class="description">
+            <p>Idade: 20 anos</p>
+            <p>Natan Olivares é um jovem bruxo de habilidades extraordinárias, conhecido por sua capacidade de manipular as forças da natureza e do arcano.</p>
+        </div>
+        <div class="separator"></div>
+        <div class="powers">
+            <h2>Poderes</h2>
+            <p>Natan é um mestre dos elementos, capaz de convocar tempestades devastadoras, manipular o fogo em formas inimagináveis e controlar a terra para moldar o próprio terreno de batalha. Sua habilidade de criar ilusões é tão avançada que pode enganar até os mais experientes em magia.</p>
+            <div class="gallery">
+                <img src="https://i.ibb.co/RvXZXZw/image-fogo.jpg" alt="Poder de Fogo">
+                <img src="https://i.ibb.co/MDd61h9/image-tempestade.jpg" alt="Poder de Tempestade">
+                <img src="https://i.ibb.co/0q8WQCd/image-ilusao.jpg" alt="Poder de Ilusões">
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="history">
+            <h2>História</h2>
+            <p>Nascido em uma vila escondida nas montanhas ancestrais, Natan foi criado por um antigo clã de bruxos que o ensinou a arte da magia desde cedo. Desde criança, mostrou um talento inato que superava o de seus mestres. Aos 15 anos, já havia aprendido a controlar tempestades, e aos 18, derrotou um dragão que ameaçava sua vila, solidificando seu lugar como protetor dos inocentes.</p>
+            <p>Em suas jornadas, Natan encontrou inúmeros aliados e adversários, cada um contribuindo para seu crescimento não apenas como bruxo, mas como líder. Sua busca incessante por conhecimento o levou aos confins do mundo mágico, onde descobriu segredos antigos que ampliaram seus poderes a níveis lendários.</p>
+            <p>Agora, aos 20 anos, ele continua a proteger seu lar e a explorar o desconhecido, sempre em busca de desafios que testem seus limites e aprimorem suas habilidades extraordinárias.</p>
+        </div>
+        <div class="separator"></div>
+        <div class="links">
+            <a href="http://aminoapps.com/p/cwjpfe" target="_blank" class="btn-amino">Visite meu perfil no Amino</a>
+        </div>
+        <div class="footer">
+            Created by @Natamino
+        </div>
+    </div>
+</body>
+</html>
